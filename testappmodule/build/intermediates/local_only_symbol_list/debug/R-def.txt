@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+dimen app_bar_height
+dimen fab_margin
+dimen text_margin
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id action_settings
+id app_bar
+id fab
+id toolbar
+id toolbar_layout
+layout activity_scrolling
+layout content_scrolling
+menu menu_scrolling
+mipmap ic_launcher
+mipmap ic_launcher_round
+string action_settings
+string app_name
+string large_text
+style Theme.TestApp
+style Theme.TestApp.AppBarOverlay
+style Theme.TestApp.NoActionBar
+style Theme.TestApp.PopupOverlay
