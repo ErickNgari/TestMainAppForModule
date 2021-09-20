@@ -1,9 +1,0 @@
-com/testcognito/testappmodule/databinding/ContentScrollingBinding.java
- com.testcognito.testappmodule.databinding.ContentScrollingBinding
-com/testcognito/testappmodule/BuildConfig.java
- com.testcognito.testappmodule.BuildConfig
-com/testcognito/testappmodule/ScrollingActivity.java
- com.testcognito.testappmodule.ScrollingActivity
- com.testcognito.testappmodule.ScrollingActivity$1
-com/testcognito/testappmodule/databinding/ActivityScrollingBinding.java
- com.testcognito.testappmodule.databinding.ActivityScrollingBinding

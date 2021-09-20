@@ -4,16 +4,16 @@ plugins {
 
 apply plugin: "maven-publish"
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            groupId = 'com.testcognito.testapp'
-            artifactId = 'testappmodule'
-            version = '5.0.3'
-            //from components.java
-        }
-    }
-}
+//publishing {
+//    publications {
+//        mavenJava(MavenPublication) {
+//            groupId = 'com.testcognito.testapp'
+//            artifactId = 'testappmodule'
+//            version = '5.0.3'
+//            //from components.java
+//        }
+//    }
+//}
 
 android {
     compileSdkVersion 30
