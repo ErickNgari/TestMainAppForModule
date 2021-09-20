@@ -4,6 +4,17 @@ plugins {
 
 apply plugin: "maven-publish"
 
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.testcognito.testapp'
+            artifactId = 'testappmodule'
+            version = '5.0.3'
+            //from components.java
+        }
+    }
+}
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
@@ -11,8 +22,6 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
