@@ -8,6 +8,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../.gradle/caches/transforms-2/files-2.1/fe90514cf1302eb6d9d6b6b857ee2542/common-release-1.0.0/res/layout/activity_apa_hospital.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="testappmodule/src/main/res/layout/activity_scrolling.xml" value="0.1" />
       </map>
     </option>

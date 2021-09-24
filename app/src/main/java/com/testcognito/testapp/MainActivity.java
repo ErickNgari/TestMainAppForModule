@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void launch(View view){
-        Intent intent = new Intent(MainActivity.this, com.testcognito.testappmodule.ScrollingActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(MainActivity.this, com.testcognito.testappmodule.ScrollingActivity.class);
+//        startActivity(intent);
     }
 }

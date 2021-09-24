@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.MyLibrary",
+    "module": "final",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "siklitx2rvgqpbmsffdpaedgiq"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "final-1.0.aar",
+          "url": "final-1.0.aar",
+          "size": 130817,
+          "sha512": "9684d6ee5847060d9d8fb90992e28094c5fb5b8aa005659e1953f16289118a208de610b2b619e1cf90954fc811f61d0739622e73971c370f49bb9f8d226b6ebe",
+          "sha256": "161e2f8817b1970bf8fd8db0d8070881d8653dbadee0811fbfc0ff965722ac7f",
+          "sha1": "d92bc3f5f5860e93ff4f88b2427bb56c2226278a",
+          "md5": "ec790326fc63cba80760fceb1db90dfb"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "final-1.0.aar",
+          "url": "final-1.0.aar",
+          "size": 130817,
+          "sha512": "9684d6ee5847060d9d8fb90992e28094c5fb5b8aa005659e1953f16289118a208de610b2b619e1cf90954fc811f61d0739622e73971c370f49bb9f8d226b6ebe",
+          "sha256": "161e2f8817b1970bf8fd8db0d8070881d8653dbadee0811fbfc0ff965722ac7f",
+          "sha1": "d92bc3f5f5860e93ff4f88b2427bb56c2226278a",
+          "md5": "ec790326fc63cba80760fceb1db90dfb"
+        }
+      ]
+    }
+  ]
+}
